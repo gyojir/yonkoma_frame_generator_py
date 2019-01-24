@@ -5,13 +5,13 @@
 import cv2
 import numpy as np
 
-margin = 69				# 余白
-interval = 69			# コマとコマの間隔
-border_thickness = 14	# 枠の太さ
-title_height = 220		# タイトルの高さ
-segment_height = 771	# コマの高さ
-segment_width = 1143	# コマの幅
-segment_count = 4		# コマの数
+margin = 69             # 余白
+interval = 69           # コマとコマの間隔
+border_thickness = 14   # 枠の太さ
+title_height = 220      # タイトルの高さ
+segment_height = 771    # コマの高さ
+segment_width = 1143    # コマの幅
+segment_count = 4       # コマの数
 
 # 画像高さ
 image_height = margin * 2 \
